@@ -1,0 +1,10 @@
+[
+  {
+    "targets": [
+      "localhost:4000"
+    ],
+    "labels": {
+      "job": "APIGateway"
+    }
+  }
+]
