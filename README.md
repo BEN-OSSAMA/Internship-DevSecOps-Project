@@ -1,64 +1,80 @@
-# 🚀 INTERNSHIP-DEVSECOPS-PROJECT  
+# INTERNSHIP-DEVSECOPS-PROJECT  
 **Transforming Ideas Into Scalable, Secure Solutions**
 
 ---
 
-## 🛠️ Built with the tools and technologies
-- **Programming Language**: JavaScript  
-- **Package Manager**: npm  
-- **Container Runtime**: Docker  
-- **Orchestration**: Kubernetes, Docker Compose  
-- **Monitoring**: Prometheus, Grafana  
-- **Security**: TLS Certificates, Container Scanning, Network Policies  
+![Last Commit](https://img.shields.io/github/last-commit/BEN-OSSAMA/Internship-DevSecOps-Project)  
+![Top Language](https://img.shields.io/github/languages/top/BEN-OSSAMA/Internship-DevSecOps-Project)  
+![Language Count](https://img.shields.io/github/languages/count/BEN-OSSAMA/Internship-DevSecOps-Project)  
+
+---
+
+## 🛠️ Built with the tools and technologies:
+Express · JSON · Markdown · npm · Redis · Mongoose · Prometheus · RabbitMQ · Grafana · Prettier · .ENV · JavaScript · Nodemon · GNU Bash  
+Leaflet · MongoDB · Docker · TypeScript · Font Awesome · bat · Axios · Bootstrap · date-fns · PrimeNG · Chart.js · Jest · YAML  
 
 ---
 
 ## 📑 Table of Contents
-1. [Overview](#overview)  
-2. [Getting Started](#getting-started)  
-3. [Usage](#usage)  
-4. [Testing](#testing)  
+- [Overview](#overview)  
+- [Getting Started](#getting-started)  
+  - [Prerequisites](#prerequisites)  
+  - [Installation](#installation)  
+- [Usage](#usage)  
+- [Testing](#testing)  
 
 ---
 
 ## 📌 Overview
 **Internship-DevSecOps-Project** is a comprehensive open-source toolkit designed to streamline the **deployment, security, and monitoring** of complex microservices architectures.  
 
-It integrates **environment setup automation, scalable orchestration, and advanced observability tools** into a unified ecosystem.
+It integrates **environment setup automation, scalable orchestration, and advanced observability tools** into a unified ecosystem.  
 
 ### 🔎 Why Internship-DevSecOps-Project?
 This project simplifies complex deployment workflows, enhances system security, and provides deep observability.  
 
-**Core Features**:  
-- 🛠️ **Automation** – Consistent environment configuration files & effortless multi-service deployment.  
-- 🔒 **Security** – TLS certificates, container scans, and network policies to safeguard infrastructure.  
-- 📊 **Monitoring** – Preconfigured Prometheus & Grafana dashboards for real-time system insights.  
-- 🚀 **Orchestration** – Manage services with Docker Compose, Kubernetes manifests, and automation scripts.  
-- 📝 **Documentation** – Detailed route definitions, validation schemas & source code summaries.  
-- ⚙️ **Scalability** – Modular architecture with service registries, dynamic routing & flexible configs.  
+**Core Features:**  
+- 🛠️ **Automation**: Consistent environment configuration & effortless multi-service deployment.  
+- 🔒 **Security**: TLS certificates, container security scans, and network policies.  
+- 📊 **Monitoring**: Preconfigured Prometheus & Grafana dashboards.  
+- 🚀 **Orchestration**: Docker Compose, Kubernetes manifests & deployment scripts.  
+- 📝 **Documentation**: Route definitions, validation schemas & detailed code summaries.  
+- ⚙️ **Scalability**: Modular architecture with service registries & flexible configuration management.  
 
 ---
 
-## ⚡ Getting Started + Installation + Usage + Testing  
-👉 Copiez-collez simplement ce script :
+## ⚡ Getting Started  
+
+### ✅ Prerequisites
+This project requires the following dependencies:  
+- **Programming Language**: JavaScript  
+- **Package Manager**: npm  
+- **Container Runtime**: Docker  
+
+---
+
+### 📥 Installation & Setup  
+Copy and paste the following commands to install and run the project:
 
 ```bash
-# 1️⃣ Cloner le projet
+# Clone the repository
 git clone https://github.com/BEN-OSSAMA/Internship-DevSecOps-Project
 cd Internship-DevSecOps-Project
 
-# 2️⃣ Installer les dépendances (npm)
+# Install dependencies (npm)
 npm install
 
-# 3️⃣ Builder et lancer avec Docker
+# Build Docker image
 docker build -t internship-devsecops-project .
+
+# Run the project with Docker
 docker run -it internship-devsecops-project
 
-# 4️⃣ Lancer le projet avec npm (alternative à Docker)
+# Run the project with npm (alternative)
 npm start
 
-# 5️⃣ Exécuter les tests avec npm
+# Run tests with npm
 npm test
 
-# 6️⃣ Exécuter les tests avec Docker (adapter si besoin)
+# Run tests with Docker (replace with actual test command if configured)
 echo 'INSERT-TEST-COMMAND-HERE'
